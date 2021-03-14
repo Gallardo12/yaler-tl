@@ -40,7 +40,7 @@
                             class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a class="@yield('page-active1')" href="/telecomunicaciones">Telecomunicaciones</a></li>
-                        <li><a class="@yield('page-active2')" href="/muebles-para-oficina">Mobiliario</a></li>
+                        <li><a class="@yield('page-active2')" href="/mobiliario-para-oficina">Mobiliario</a></li>
                         <li><a class="@yield('page-active3')" href="/contacto">Contacto</a></li>
                     </ul>
                 </div>
@@ -52,7 +52,7 @@
                 </div>
                 <div class="divider"></div>
                 <li><a class="@yield('page-active1')" href="/telecomunicaciones">Telecomunicaciones</a></li>
-                <li><a class="@yield('page-active2')" href="/muebles-para-oficina">Mobiliario</a></li>
+                <li><a class="@yield('page-active2')" href="/mobiliario-para-oficina">Mobliliario para Oficina</a></li>
                 <li><a class="@yield('page-active3')" href="/contacto">Contacto</a></li>
             </ul>
         </div>
@@ -63,15 +63,15 @@
     </main>
 
     <footer class="page-footer white">
-        <div class="container">
+        <!--div class="container">
             <div class="row valign-wrapper center-align">
                 <div class="col s12">
-                    <!--h5 class="white-text">YALER TL-Comunicaciones</h5>
+                    <h5 class="white-text">YALER TL-Comunicaciones</h5>
                     <p class="grey-text text-lighten-4">We are a team of college students working on this project like
                         it's our full time job. Any amount would help support and continue development on this project
-                        and is greatly appreciated.</p-->
+                        and is greatly appreciated.</p>
                     <img src="public/img/yaler-logo.png" class="responsive-img" alt="YALER TL Logo">
-                </div>
+                </div-->
                 <!--div class="col l3 s12">
                     <h5 class="red-text">Settings</h5>
                     <ul>
@@ -89,9 +89,9 @@
                         <li><a class="red-text" href="#!">Link 3</a></li>
                         <li><a class="red-text" href="#!">Link 4</a></li>
                     </ul>
-                </div-->
+                </div>
             </div>
-        </div>
+        </div-->
         <div class="footer-copyright red darken-3">
             <div class="container">
                 Derechos reservados <a class="white-text" href="">YALER TL-Comunicaciones</a> 2021
