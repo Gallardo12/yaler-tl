@@ -46,7 +46,7 @@
 
             <ul class="sidenav" id="mobile-demo">
                 <div class="col s10 center-align valign-wrapper">
-                    <img src="img/yaler-logo.png" class="responsive-img" alt="YALER TL Logo">
+                    <img src="public/img/yaler-logo.png" class="responsive-img" alt="YALER TL Logo">
                 </div>
                 <div class="divider"></div>
                 <li><a class="@yield('page-active1')" href="/telecomunicaciones">Telecomunicaciones</a></li>
@@ -68,7 +68,7 @@
                     <p class="grey-text text-lighten-4">We are a team of college students working on this project like
                         it's our full time job. Any amount would help support and continue development on this project
                         and is greatly appreciated.</p-->
-                    <img src="img/yaler-logo.png" class="responsive-img" alt="YALER TL Logo">
+                    <img src="public/img/yaler-logo.png" class="responsive-img" alt="YALER TL Logo">
                 </div>
                 <!--div class="col l3 s12">
                     <h5 class="red-text">Settings</h5>
