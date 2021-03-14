@@ -18,6 +18,8 @@
         content="{{ config('app.name', 'Laravel') }} - @yield('page-name')">
     <meta name="twitter:image:alt" content="@yield('page-name') - Background">
 
+    <link rel="shortcut icon" type="image/x-icon" href="public/favicon.ico"/>
+
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
