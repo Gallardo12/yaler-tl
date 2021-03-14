@@ -1,100 +1,161 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>Laravel</title>
+@section('page-active')
+active
+@endsection
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+@section('page-name')
+Inicio
+@endsection
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+@section('description')
 
-            .full-height {
-                height: 100vh;
-            }
+@endsection
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+@section('image-url')
 
-            .position-ref {
-                position: relative;
-            }
+@endsection
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+@section('page-url')
 
-            .content {
-                text-align: center;
-            }
+@endsection
 
-            .title {
-                font-size: 84px;
-            }
+@section('summary')
 
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
+@endsection
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+@section('content')
+<div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+        <br><br>
+        <!--h1 class="header center teal-text text-lighten-2">Parallax Template</h1-->
+        <div class="container valign-wrapper" style="height: auto">
+            <div class="row">
+                <div class="col s12">
+                    <div class="center-align">
+                        <img class="responsive-img highlighted1" src="img/yaler-logo.png">
+                    </div>
+                    <div class="center-align">
+                        <h5 class="header col light s12">Yaler TL-Comunicaciones SA DE CV, es una empresa con un alto
+                            nivel
+                            profesional en el desarrollo de redes parea desempeños Tecnológicos, Eléctricos y Sistemas
+                            de protección de energía.</h5>
+                        <a href="/contacto" id="download-button"
+                            class="btn-large waves-effect waves-light red darken-3">CONTÁCTANOS</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </body>
-</html>
+        <br><br>
+    </div>
+    <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 1"></div>
+</div>
+
+
+<div class="container">
+    <div class="section">
+
+        <!--   Icon Section   -->
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center red-text text-darken-3"><i class="material-icons">flash_on</i></h2>
+                    <a href="/telecomunicaciones" class="red-text text-darken-3">
+                        <h5 class="center">Telecomunicaciones</h5>
+                    </a>
+                    <p style="text-align: justify;">Nuestro objetivo como empresa es llegar a ser líder en el mercado,
+                        brindando a nuestros clientes la facilidad de encontrar distintas soluciones tanto en tema de
+                        mobiliario como de infraestructura tecnológica y de comunicaciones.</p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center red-text text-darken-3"><i class="material-icons">group</i></h2>
+                    <a href="/telecomunicaciones" class="red-text text-darken-3">
+                        <h5 class="center">Ingeniería y Asesoria en Redes</h5>
+                    </a>
+                    <p style="text-align: justify;">Contamos con ingenieros certificados en las marcas de renombre como
+                        Cisco, Fortigate, Samsung, TotalGround, Panduit, Leviton y con la infraestructura adecuada para
+                        la ejecución de los proyectos industriales y carreteros.</p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center red-text text-darken-3"><i class="material-icons">settings</i></h2>
+                    <a href="/muebles-para-oficina" class="red-text text-darken-3">
+                        <h5 class="center">Muebles para Oficina</h5>
+                    </a>
+                    <p style="text-align: justify;">Fabricantes de muebles para oficina y distribuidores certificados en
+                        Telefonía Samsung, Fortinet, TotalGround entre otros.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="parallax-container valign-wrapper">
+    <div class="container">
+        <div class="row center">
+            <h5 class="header col s12 light black-text highlighted">A lo largo del camino que hemos recorrido, gracias a
+                su confianza, hemos
+                realizado distintos trabajos de mobiliarios, telecomunicaciones y tecnología, siempre de la mano de
+                nuestros ingenieros certificados, quienes se encuentran en constante capacitación para garantizar un
+                trabajo de calidad. </h5>
+        </div>
+    </div>
+    <div class="parallax"><img src="img/background2.jpg" class="" alt="Unsplashed background img 2"></div>
+</div>
+
+<div class="section">
+    <div class="row">
+        <div class="col s12 center">
+            <h3><i class="mdi-content-send red-text darken-3"></i></h3>
+            <h4 class="red-text text-darken-3">Equipos de Medición</h4>
+            <div class="carousel">
+                <a class="carousel-item" class="red-text darken-3" href="#!"><img
+                        src="img/herramientas/herramienta1.jpg"><br>
+                    <p class="light red-text text-darken-3">OTDR JDSU 2000 MTS</p>
+                </a>
+                <a class="carousel-item" class="red-text darken-3" href="#!"><img
+                        src="img/herramientas/herramienta2.jpg"><br>
+                    <p class="light red-text text-darken-3">OTDR OPTRONIC</p>
+                </a>
+                <a class="carousel-item" class="red-text darken-3" href="#!"><img
+                        src="img/herramientas/herramienta3.jpg"><br>
+                    <p class="light red-text text-darken-3">CERTIFIADOR DE CABLEADO ESTRCUTURADO FLUKE DSX5000</p>
+                </a>
+                <a class="carousel-item" class="red-text darken-3" href="#!"><img
+                        src="img/herramientas/herramienta4.jpg"><br>
+                    <p class="light red-text text-darken-3">CERTIFICADOR DE CABLEADO DE FIBRA OPTICA CERTIFIBER FLUKE
+                        CF-PRO-QUAD</p>
+                </a>
+                <a class="carousel-item" class="red-text darken-3" href="#!"><img
+                        src="img/herramientas/herramienta5.jpg"><br>
+                    <p class="light red-text text-darken-3">EMPALMADORA DE FIBRA OPTICA SUMITOMO</p>
+                </a>
+                <a class="carousel-item" class="red-text darken-3" href="#!"><img
+                        src="img/herramientas/herramienta6.jpg"><br>
+                    <p class="light red-text text-darken-3">EMPALMADORA DE FIBRA OPTICA ALINEACIÓN POR NUCLEO MEGER ST-1520
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <!--div class="row center">
+                <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+            </div-->
+        </div>
+    </div>
+    <div class="parallax"><img src="img/background3.jpg" class="responsive-img" alt="Unsplashed background img 3"></div>
+</div>
+@endsection

@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/telecomunicaciones', function () {
+    return view('telecomunicaciones');
+});
+
+Route::get('/muebles-para-oficina', function () {
+    return view('muebles');
+});
+
+Route::get('/contacto', function () {
+    return view('contacto');
+});
