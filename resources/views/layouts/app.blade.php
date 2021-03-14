@@ -90,9 +90,9 @@
                 </div-->
             </div>
         </div>
-        <div class="footer-copyright">
+        <div class="footer-copyright red darken-3">
             <div class="container">
-                Derechos reservados <a class="red-text text-darken-3" href="">YALER TL-Comunicaciones</a> 2021
+                Derechos reservados <a class="white-text" href="">YALER TL-Comunicaciones</a> 2021
             </div>
         </div>
     </footer>
