@@ -32,7 +32,7 @@
         <div class="navbar-fixed">
             <nav class="white" role="navigation">
                 <div class="nav-wrapper">
-                    <a href="/" class="brand-logo"><img src="{{ asset('img/yaler-logo.png') }}" width="150" height="auto"
+                    <a href="/" class="brand-logo"><img src="{{ URL::to('/') }}/img/yaler-logo.png" width="150" height="auto"
                             style="padding: 10px 0!important" alt="YALER Logo"></a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger red-text darken-3"><i
                             class="material-icons">menu</i></a>
