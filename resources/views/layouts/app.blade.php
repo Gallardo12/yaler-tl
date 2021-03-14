@@ -18,7 +18,7 @@
         content="{{ config('app.name', 'Laravel') }} - @yield('page-name')">
     <meta name="twitter:image:alt" content="@yield('page-name') - Background">
 
-    <link rel="shortcut icon" type="image/x-icon" href="public/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="public/favicon.ico" />
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -39,6 +39,7 @@
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger red-text darken-3"><i
                             class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
+                        <li><a class="@yield('page-active')" href="/">Inicio</a></li>
                         <li><a class="@yield('page-active1')" href="/telecomunicaciones">Telecomunicaciones</a></li>
                         <li><a class="@yield('page-active2')" href="/mobiliario-para-oficina">Mobiliario</a></li>
                         <li><a class="@yield('page-active3')" href="/contacto">Contacto</a></li>
@@ -48,9 +49,12 @@
 
             <ul class="sidenav" id="mobile-demo">
                 <div class="col s10 center-align valign-wrapper">
-                    <img src="public/img/yaler-logo.png" class="responsive-img" alt="YALER TL Logo">
+                    <a href="/">
+                        <img src="public/img/yaler-logo.png" class="responsive-img" alt="YALER TL Logo">
+                    </a>
                 </div>
                 <div class="divider"></div>
+                <li><a class="@yield('page-active')" href="/">Inicio</a></li>
                 <li><a class="@yield('page-active1')" href="/telecomunicaciones">Telecomunicaciones</a></li>
                 <li><a class="@yield('page-active2')" href="/mobiliario-para-oficina">Mobliliario para Oficina</a></li>
                 <li><a class="@yield('page-active3')" href="/contacto">Contacto</a></li>
@@ -72,7 +76,7 @@
                         and is greatly appreciated.</p>
                     <img src="public/img/yaler-logo.png" class="responsive-img" alt="YALER TL Logo">
                 </div-->
-                <!--div class="col l3 s12">
+        <!--div class="col l3 s12">
                     <h5 class="red-text">Settings</h5>
                     <ul>
                         <li><a class="red-text" href="#!">Link 1</a></li>
@@ -102,6 +106,7 @@
 
     <!--  Scripts-->
     <!-- Compiled and minified JavaScript -->
+    <script src="https://kit.fontawesome.com/dac6e561e6.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
         M.AutoInit();

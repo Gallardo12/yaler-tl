@@ -5,23 +5,23 @@ active
 @endsection
 
 @section('page-name')
-Muebles para Oficina
+Mobiliario para Oficina
 @endsection
 
 @section('description')
-
+Algunos trabajos de mobiliario realizados
 @endsection
 
 @section('image-url')
-
+public/img/background5.jpg
 @endsection
 
 @section('page-url')
-
+http://yalertl.com/mobiliario-para-oficina
 @endsection
 
 @section('summary')
-
+Algunos trabajos de mobiliario realizados
 @endsection
 
 @section('content')
