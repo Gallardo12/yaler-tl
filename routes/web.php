@@ -19,7 +19,7 @@ Route::get('/telecomunicaciones', function () {
     return view('telecomunicaciones');
 });
 
-Route::get('/muebles-para-oficina', function () {
+Route::get('/mobiliario-para-oficina', function () {
     return view('muebles');
 });
 
