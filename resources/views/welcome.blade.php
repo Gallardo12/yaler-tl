@@ -33,7 +33,7 @@ Inicio
             <div class="row">
                 <div class="col s12">
                     <div class="center-align">
-                        <img class="responsive-img highlighted1" src="img/yaler-logo.png">
+                        <img class="responsive-img highlighted1" src="public/img/yaler-logo.png">
                     </div>
                     <div class="center-align">
                         <h5 class="header col light s12">Yaler TL-Comunicaciones SA DE CV, es una empresa con un alto
@@ -48,7 +48,7 @@ Inicio
         </div>
         <br><br>
     </div>
-    <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="public/img/background1.jpg" alt="Unsplashed background img 1"></div>
 </div>
 
 
@@ -107,7 +107,7 @@ Inicio
                 trabajo de calidad. </h5>
         </div>
     </div>
-    <div class="parallax"><img src="img/background2.jpg" class="" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="public/img/background2.jpg" class="" alt="Unsplashed background img 2"></div>
 </div>
 
 <div class="section">
@@ -117,28 +117,28 @@ Inicio
             <h4 class="red-text text-darken-3">Equipos de Medición</h4>
             <div class="carousel">
                 <a class="carousel-item" class="red-text darken-3" href="#!"><img
-                        src="img/herramientas/herramienta1.jpg"><br>
+                        src="public/img/herramientas/herramienta1.jpg"><br>
                     <p class="light red-text text-darken-3">OTDR JDSU 2000 MTS</p>
                 </a>
                 <a class="carousel-item" class="red-text darken-3" href="#!"><img
-                        src="img/herramientas/herramienta2.jpg"><br>
+                        src="public/img/herramientas/herramienta2.jpg"><br>
                     <p class="light red-text text-darken-3">OTDR OPTRONIC</p>
                 </a>
                 <a class="carousel-item" class="red-text darken-3" href="#!"><img
-                        src="img/herramientas/herramienta3.jpg"><br>
+                        src="public/img/herramientas/herramienta3.jpg"><br>
                     <p class="light red-text text-darken-3">CERTIFIADOR DE CABLEADO ESTRCUTURADO FLUKE DSX5000</p>
                 </a>
                 <a class="carousel-item" class="red-text darken-3" href="#!"><img
-                        src="img/herramientas/herramienta4.jpg"><br>
+                        src="public/img/herramientas/herramienta4.jpg"><br>
                     <p class="light red-text text-darken-3">CERTIFICADOR DE CABLEADO DE FIBRA OPTICA CERTIFIBER FLUKE
                         CF-PRO-QUAD</p>
                 </a>
                 <a class="carousel-item" class="red-text darken-3" href="#!"><img
-                        src="img/herramientas/herramienta5.jpg"><br>
+                        src="public/img/herramientas/herramienta5.jpg"><br>
                     <p class="light red-text text-darken-3">EMPALMADORA DE FIBRA OPTICA SUMITOMO</p>
                 </a>
                 <a class="carousel-item" class="red-text darken-3" href="#!"><img
-                        src="img/herramientas/herramienta6.jpg"><br>
+                        src="public/img/herramientas/herramienta6.jpg"><br>
                     <p class="light red-text text-darken-3">EMPALMADORA DE FIBRA OPTICA ALINEACIÓN POR NUCLEO MEGER ST-1520
                     </p>
                 </a>
@@ -156,6 +156,6 @@ Inicio
             </div-->
         </div>
     </div>
-    <div class="parallax"><img src="img/background3.jpg" class="responsive-img" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="public/img/background3.jpg" class="responsive-img" alt="Unsplashed background img 3"></div>
 </div>
 @endsection
