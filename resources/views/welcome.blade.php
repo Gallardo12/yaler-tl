@@ -65,7 +65,7 @@ encontrar distintas soluciones tanto en tema de mobiliario como de infraestructu
             <div class="col s12 m4">
                 <div class="card small">
                     <div class="icon-block">
-                        <h2 class="center red-text text-darken-3"><i class="material-icons">flash_on</i></h2>
+                        <h2 class="center red-text text-darken-3"><i class="fas fa-satellite-dish"></i></h2>
                         <a href="/telecomunicaciones" class="red-text text-darken-3">
                             <h5 class="center">Telecomunicaciones</h5>
                         </a>
@@ -81,7 +81,7 @@ encontrar distintas soluciones tanto en tema de mobiliario como de infraestructu
             <div class="col s12 m4">
                 <div class="card small">
                     <div class="icon-block">
-                        <h2 class="center red-text text-darken-3"><i class="material-icons">group</i></h2>
+                        <h2 class="center red-text text-darken-3"><i class="fas fa-wifi"></i></h2>
                         <a href="/telecomunicaciones" class="red-text text-darken-3">
                             <h5 class="center">Ingeniería y Asesoria en Redes</h5>
                         </a>
@@ -97,7 +97,7 @@ encontrar distintas soluciones tanto en tema de mobiliario como de infraestructu
             <div class="col s12 m4">
                 <div class="card small">
                     <div class="icon-block">
-                        <h2 class="center red-text text-darken-3"><i class="material-icons">settings</i></h2>
+                        <h2 class="center red-text text-darken-3"><i class="fas fa-chair"></i></h2>
                         <a href="/muebles-para-oficina" class="red-text text-darken-3">
                             <h5 class="center">Muebles para Oficina</h5>
                         </a>
