@@ -26,3 +26,10 @@ Route::get('/mobiliario-para-oficina', function () {
 Route::get('/contacto', function () {
     return view('contacto');
 });
+
+Route::get('contact-us', 'ContactUsController@contactUs');
+
+Route::post('contact-us',[
+    'as'=>'contactus.store',
+    'uses'=>'ContactUsController@contactUsPost'
+]);

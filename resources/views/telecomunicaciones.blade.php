@@ -9,19 +9,19 @@ Telecomunicaciones
 @endsection
 
 @section('description')
-
+Algunos trabajos de Tecnología y Telecomunicaciones realizados
 @endsection
 
 @section('image-url')
-
+public/img/background4.jpg
 @endsection
 
 @section('page-url')
-
+http://yalertl.com/telecomunicaciones
 @endsection
 
 @section('summary')
-
+Algunos trabajos de Tecnología y Telecomunicaciones realizados
 @endsection
 
 @section('content')
@@ -235,6 +235,46 @@ Telecomunicaciones
                     <div class="col s4"><img src="public/img/otros/otros9.jpg" alt="" class="materialboxed responsive-img">
                     </div>
                     <div class="col s4"><img src="public/img/otros/otros10.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 center">
+                <div class="card-panel">
+                    <h3><i class="mdi-content-send red-text darken-3"></i></h3>
+                    <h4 class="red-text text-darken-3">Equipos de medición que forman parte de nuestra herramienta</h4>
+                    <div class="carousel">
+                        <a class="carousel-item" class="red-text darken-3" href="#!"><img
+                                src="public/img/herramientas/herramienta1.jpg"><br>
+                            <p class="light red-text text-darken-3">OTDR JDSU 2000 MTS</p>
+                        </a>
+                        <a class="carousel-item" class="red-text darken-3" href="#!"><img
+                                src="public/img/herramientas/herramienta2.jpg"><br>
+                            <p class="light red-text text-darken-3">OTDR OPTRONIC</p>
+                        </a>
+                        <a class="carousel-item" class="red-text darken-3" href="#!"><img
+                                src="public/img/herramientas/herramienta3.jpg"><br>
+                            <p class="light red-text text-darken-3">CERTIFIADOR DE CABLEADO ESTRCUTURADO FLUKE DSX5000
+                            </p>
+                        </a>
+                        <a class="carousel-item" class="red-text darken-3" href="#!"><img
+                                src="public/img/herramientas/herramienta4.jpg"><br>
+                            <p class="light red-text text-darken-3">CERTIFICADOR DE CABLEADO DE FIBRA OPTICA CERTIFIBER
+                                FLUKE
+                                CF-PRO-QUAD</p>
+                        </a>
+                        <a class="carousel-item" class="red-text darken-3" href="#!"><img
+                                src="public/img/herramientas/herramienta5.jpg"><br>
+                            <p class="light red-text text-darken-3">EMPALMADORA DE FIBRA OPTICA SUMITOMO</p>
+                        </a>
+                        <a class="carousel-item" class="red-text darken-3" href="#!"><img
+                                src="public/img/herramientas/herramienta6.jpg"><br>
+                            <p class="light red-text text-darken-3">EMPALMADORA DE FIBRA OPTICA ALINEACIÓN POR NUCLEO
+                                MEGER
+                                ST-1520
+                            </p>
+                        </a>
                     </div>
                 </div>
             </div>

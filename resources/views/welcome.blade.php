@@ -36,12 +36,15 @@ encontrar distintas soluciones tanto en tema de mobiliario como de infraestructu
                 <div class="col s12">
                     <div class="center-align">
                         <img class="responsive-img highlighted1" src="public/img/yaler-logo.png">
+                        <br>
                     </div>
-                    <div class="center-align">
+                    <div class="row center-align">
                         <h5 class="header col light s12">Yaler TL-Comunicaciones SA DE CV, es una empresa con un alto
                             nivel
                             profesional en el desarrollo de redes para desempeños Tecnológicos, Eléctricos y Sistemas
                             de protección de energía.</h5>
+                    </div>
+                    <div class="row center-align">
                         <a href="/contacto" id="download-button"
                             class="btn-large waves-effect waves-light red darken-3">CONTÁCTANOS</a>
                     </div>
@@ -123,41 +126,25 @@ encontrar distintas soluciones tanto en tema de mobiliario como de infraestructu
     <div class="parallax"><img src="public/img/background2.jpg" class="" alt="Unsplashed background img 2"></div>
 </div>
 
-<div class="section container">
-    <div class="row">
-        <div class="col s12 center">
-            <div class="card-panel">
+<div class="container">
+    <div class="card-panel">
+        <div class="row">
+            <div class="col s12">
                 <h3><i class="mdi-content-send red-text darken-3"></i></h3>
-                <h4 class="red-text text-darken-3">Equipos de Medición</h4>
+                <h4 class="center-align red-text text-darken-3">Distribuidores Certificados</h4>
                 <div class="carousel">
-                    <a class="carousel-item" class="red-text darken-3" href="#!"><img
-                            src="public/img/herramientas/herramienta1.jpg"><br>
-                        <p class="light red-text text-darken-3">OTDR JDSU 2000 MTS</p>
-                    </a>
-                    <a class="carousel-item" class="red-text darken-3" href="#!"><img
-                            src="public/img/herramientas/herramienta2.jpg"><br>
-                        <p class="light red-text text-darken-3">OTDR OPTRONIC</p>
-                    </a>
-                    <a class="carousel-item" class="red-text darken-3" href="#!"><img
-                            src="public/img/herramientas/herramienta3.jpg"><br>
-                        <p class="light red-text text-darken-3">CERTIFIADOR DE CABLEADO ESTRCUTURADO FLUKE DSX5000</p>
-                    </a>
-                    <a class="carousel-item" class="red-text darken-3" href="#!"><img
-                            src="public/img/herramientas/herramienta4.jpg"><br>
-                        <p class="light red-text text-darken-3">CERTIFICADOR DE CABLEADO DE FIBRA OPTICA CERTIFIBER
-                            FLUKE
-                            CF-PRO-QUAD</p>
-                    </a>
-                    <a class="carousel-item" class="red-text darken-3" href="#!"><img
-                            src="public/img/herramientas/herramienta5.jpg"><br>
-                        <p class="light red-text text-darken-3">EMPALMADORA DE FIBRA OPTICA SUMITOMO</p>
-                    </a>
-                    <a class="carousel-item" class="red-text darken-3" href="#!"><img
-                            src="public/img/herramientas/herramienta6.jpg"><br>
-                        <p class="light red-text text-darken-3">EMPALMADORA DE FIBRA OPTICA ALINEACIÓN POR NUCLEO MEGER
-                            ST-1520
-                        </p>
-                    </a>
+                    <a class="carousel-item" target="_blank" href="https://www.fortinet.com/"><img
+                            src="public/img/distribuidores/distribuidores1.png"></a>
+                    <a class="carousel-item" target="_blank" href="https://www.cisco.com/c/en/us/services/acquisitions/tandberg.html"><img
+                            src="public/img/distribuidores/distribuidores2.png"></a>
+                    <a class="carousel-item" target="_blank" href="https://www.samsung.com/mx/"><img
+                            src="public/img/distribuidores/distribuidores3.png"></a>
+                    <a class="carousel-item" target="_blank" href="https://www.cisco.com/"><img
+                            src="public/img/distribuidores/distribuidores4.png"></a>
+                    <a class="carousel-item" target="_blank" href="https://www.totalground.com/"><img
+                            src="public/img/distribuidores/distribuidores5.png"></a>
+                    <a class="carousel-item" target="_blank" href="https://www.panduit.com/"><img
+                            src="public/img/distribuidores/distribuidores6.png"></a>
                 </div>
             </div>
         </div>
