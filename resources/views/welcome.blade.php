@@ -9,19 +9,19 @@ Inicio
 @endsection
 
 @section('description')
-
+Yaler TL-Comunicaciones SA DE CV, es una empresa con un alto nivel profesional en el desarrollo de redes para desempeños Tecnológicos, Eléctricos y Sistemas de protección de energía
 @endsection
 
 @section('image-url')
-
+public\img\yaler-logo.jpg
 @endsection
 
 @section('page-url')
-
+http://yalertl.com/
 @endsection
 
 @section('summary')
-
+Nuestro objetivo como empresa es llegar a ser líder en el mercado, brindando a nuestros clientes la facilidad de encontrar distintas soluciones tanto en tema de mobiliario como de infraestructura tecnológica y de comunicaciones.
 @endsection
 
 @section('content')
@@ -38,7 +38,7 @@ Inicio
                     <div class="center-align">
                         <h5 class="header col light s12">Yaler TL-Comunicaciones SA DE CV, es una empresa con un alto
                             nivel
-                            profesional en el desarrollo de redes parea desempeños Tecnológicos, Eléctricos y Sistemas
+                            profesional en el desarrollo de redes para desempeños Tecnológicos, Eléctricos y Sistemas
                             de protección de energía.</h5>
                         <a href="/contacto" id="download-button"
                             class="btn-large waves-effect waves-light red darken-3">CONTÁCTANOS</a>
