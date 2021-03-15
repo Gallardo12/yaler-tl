@@ -56,7 +56,7 @@
                 <div class="divider"></div>
                 <li><a class="@yield('page-active')" href="/">Inicio</a></li>
                 <li><a class="@yield('page-active1')" href="/telecomunicaciones">Telecomunicaciones</a></li>
-                <li><a class="@yield('page-active2')" href="/mobiliario-para-oficina">Mobliliario para Oficina</a></li>
+                <li><a class="@yield('page-active2')" href="/mobiliario-para-oficina">Mobiliario para Oficina</a></li>
                 <li><a class="@yield('page-active3')" href="/contacto">Contacto</a></li>
             </ul>
         </div>
