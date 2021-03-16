@@ -98,7 +98,7 @@ encontrar distintas soluciones tanto en tema de mobiliario como de infraestructu
                 <div class="card small">
                     <div class="icon-block">
                         <h2 class="center red-text text-darken-3"><i class="fas fa-chair"></i></h2>
-                        <a href="/muebles-para-oficina" class="red-text text-darken-3">
+                        <a href="/mobiliario-para-oficina" class="red-text text-darken-3">
                             <h5 class="center">Muebles para Oficina</h5>
                         </a>
                         <p style="text-align: justify;">Fabricantes de muebles para oficina y distribuidores
