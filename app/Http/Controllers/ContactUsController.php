@@ -42,7 +42,7 @@ class ContactUsController extends Controller
         ), function($message)
         {
             $message->from('yalerebf@gmail.com');
-            $message->to('jgallardo@cadurango.mx', 'YALER TL_Comunicaciones')->subject('YALER TL-Comunicaciones');
+            $message->to('yalerebf@gmail.com', 'YALER TL_Comunicaciones')->subject('YALER TL-Comunicaciones');
         });
         return back()->with('success', 'Gracias!! En breve nos pondremos en contacto con usted.');
     }
