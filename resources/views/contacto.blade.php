@@ -28,11 +28,11 @@ Cualquier duda o aclaración pueden contactarnos
 <div class="parallax-container valign-wrapper">
     <div class="row center">
         <div class="center-align">
-            <img class="responsive-img highlighted1" src="public/img/yaler-logo.png">
+            <img loading="lazy" class="responsive-img highlighted1" src="public/img/yaler-logo.png">
         </div>
         <h4 class="header col s12 white-text">Cualquier duda o aclaración pueden contactarnos</h5>
     </div>
-    <div class="parallax"><img src="public/img/background6.jpg" class="responsive-img" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img loading="lazy" src="public/img/background6.jpg" class="responsive-img" alt="Unsplashed background img 2"></div>
 </div>
 <div class="container">
     <div class="row">

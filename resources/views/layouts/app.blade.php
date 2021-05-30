@@ -34,7 +34,7 @@
         <div class="navbar-fixed">
             <nav class="white" role="navigation">
                 <div class="nav-wrapper">
-                    <a href="/" class="brand-logo"><img src="public/img/yaler-logo.png" width="150" height="auto"
+                    <a href="/" class="brand-logo"><img loading="lazy" src="public/img/yaler-logo.png" width="150" height="auto"
                             style="padding: 10px 0!important" alt="YALER Logo"></a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger red-text darken-3"><i
                             class="material-icons">menu</i></a>
@@ -50,7 +50,7 @@
             <ul class="sidenav" id="mobile-demo">
                 <div class="col s10 center-align valign-wrapper">
                     <a href="/">
-                        <img src="public/img/yaler-logo.png" class="responsive-img" alt="YALER TL Logo">
+                        <img loading="lazy" src="public/img/yaler-logo.png" class="responsive-img" alt="YALER TL Logo">
                     </a>
                 </div>
                 <div class="divider"></div>
@@ -74,7 +74,7 @@
                     <p class="grey-text text-lighten-4">We are a team of college students working on this project like
                         it's our full time job. Any amount would help support and continue development on this project
                         and is greatly appreciated.</p>
-                    <img src="public/img/yaler-logo.png" class="responsive-img" alt="YALER TL Logo">
+                    <img loading="lazy" src="public/img/yaler-logo.png" class="responsive-img" alt="YALER TL Logo">
                 </div-->
         <!--div class="col l3 s12">
                     <h5 class="red-text">Settings</h5>

@@ -35,7 +35,7 @@ encontrar distintas soluciones tanto en tema de mobiliario como de infraestructu
             <div class="row">
                 <div class="col s12">
                     <div class="center-align">
-                        <img class="responsive-img highlighted1" src="public/img/yaler-logo.png">
+                        <img loading="lazy" class="responsive-img highlighted1" src="public/img/yaler-logo.png">
                         <br>
                     </div>
                     <div class="row center-align">
@@ -53,7 +53,7 @@ encontrar distintas soluciones tanto en tema de mobiliario como de infraestructu
         </div>
         <br><br>
     </div>
-    <div class="parallax"><img src="public/img/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img loading="lazy" src="public/img/background1.jpg" alt="Unsplashed background img 1"></div>
 </div>
 
 
@@ -123,7 +123,7 @@ encontrar distintas soluciones tanto en tema de mobiliario como de infraestructu
                 trabajo de calidad. </h5>
         </div>
     </div>
-    <div class="parallax"><img src="public/img/background2.jpg" class="" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img loading="lazy" src="public/img/background2.jpg" class="" alt="Unsplashed background img 2"></div>
 </div>
 
 <div class="container">
@@ -133,17 +133,17 @@ encontrar distintas soluciones tanto en tema de mobiliario como de infraestructu
                 <h3><i class="mdi-content-send red-text darken-3"></i></h3>
                 <h4 class="center-align red-text text-darken-3">Distribuidores Certificados</h4>
                 <div class="carousel">
-                    <a class="carousel-item" target="_blank" href="https://www.fortinet.com/"><img
+                    <a class="carousel-item" target="_blank" href="https://www.fortinet.com/"><img loading="lazy"
                             src="public/img/distribuidores/distribuidores1.png"></a>
-                    <a class="carousel-item" target="_blank" href="https://www.cisco.com/c/en/us/services/acquisitions/tandberg.html"><img
+                    <a class="carousel-item" target="_blank" href="https://www.cisco.com/c/en/us/services/acquisitions/tandberg.html"><img loading="lazy"
                             src="public/img/distribuidores/distribuidores2.png"></a>
-                    <a class="carousel-item" target="_blank" href="https://www.samsung.com/mx/"><img
+                    <a class="carousel-item" target="_blank" href="https://www.samsung.com/mx/"><img loading="lazy"
                             src="public/img/distribuidores/distribuidores3.png"></a>
-                    <a class="carousel-item" target="_blank" href="https://www.cisco.com/"><img
+                    <a class="carousel-item" target="_blank" href="https://www.cisco.com/"><img loading="lazy"
                             src="public/img/distribuidores/distribuidores4.png"></a>
-                    <a class="carousel-item" target="_blank" href="https://www.totalground.com/"><img
+                    <a class="carousel-item" target="_blank" href="https://www.totalground.com/"><img loading="lazy"
                             src="public/img/distribuidores/distribuidores5.png"></a>
-                    <a class="carousel-item" target="_blank" href="https://www.panduit.com/"><img
+                    <a class="carousel-item" target="_blank" href="https://www.panduit.com/"><img loading="lazy"
                             src="public/img/distribuidores/distribuidores6.png"></a>
                 </div>
             </div>
@@ -158,7 +158,7 @@ encontrar distintas soluciones tanto en tema de mobiliario como de infraestructu
             <div class="row">
                 <div class="col s12">
                     <div class="center-align">
-                        <img class="responsive-img highlighted1" src="public/img/yaler-logo.png">
+                        <img loading="lazy" class="responsive-img highlighted1" src="public/img/yaler-logo.png">
                     </div>
                     <!--div class="center-align">
                         <h5 class="header col light s12">Yaler TL-Comunicaciones SA DE CV, es una empresa con un alto
@@ -172,6 +172,6 @@ encontrar distintas soluciones tanto en tema de mobiliario como de infraestructu
             </div>
         </div>
     </div>
-    <div class="parallax"><img src="public/img/background3.jpg" class="responsive-img" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img loading="lazy" src="public/img/background3.jpg" class="responsive-img" alt="Unsplashed background img 3"></div>
 </div>
 @endsection
