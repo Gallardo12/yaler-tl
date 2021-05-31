@@ -131,7 +131,7 @@ encontrar distintas soluciones tanto en tema de mobiliario como de infraestructu
         <div class="row">
             <div class="col s12">
                 <h3><i class="mdi-content-send red-text darken-3"></i></h3>
-                <h4 class="center-align red-text text-darken-3">Distribuidores Certificados</h4>
+                <h4 class="center-align red-text text-darken-3">Distribuidores Certificados </h4>
                 <div class="carousel">
                     <a class="carousel-item" target="_blank" href="https://www.fortinet.com/"><img loading="lazy"
                             src="public/img/distribuidores/distribuidores1.png"></a>
