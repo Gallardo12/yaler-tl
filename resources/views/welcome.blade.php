@@ -42,7 +42,7 @@ encontrar distintas soluciones tanto en tema de mobiliario como de infraestructu
                         <h5 class="header col light s12">Yaler TL-Comunicaciones SA DE CV, es una empresa con un alto
                             nivel
                             profesional en el desarrollo de redes para desempeños Tecnológicos, Eléctricos y Sistemas
-                            de protección de energía.</h5>
+                            de protección de energía..</h5>
                     </div>
                     <div class="row center-align">
                         <a href="/contacto" id="download-button"
